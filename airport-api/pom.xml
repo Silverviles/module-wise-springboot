@@ -38,6 +38,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>com.silverviles</groupId>
+			<artifactId>airport-core</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>

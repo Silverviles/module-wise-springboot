@@ -41,4 +41,14 @@
             <url>${user.home}/project/airport-management/repo</url>
         </repository>
     </repositories>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.silverviles</groupId>
+                <artifactId>airport-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>
